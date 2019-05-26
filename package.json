@@ -1,14 +1,14 @@
 {
-  "name": "promise-mysql",
+  "name": "promise-mysql-native",
   "version": "3.3.2",
-  "description": "A bluebird wrapper for node-mysql",
+  "description": "A Promise wrapper for node-mysql",
   "main": "index.js",
   "scripts": {
     "test": "mocha --exit"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lukeb-uk/node-promise-mysql.git"
+    "url": "https://github.com/kugland/node-promise-mysql-native.git"
   },
   "keywords": [
     "promise",
@@ -27,18 +27,15 @@
     "database",
     "mysql",
     "mysql-promise",
-    "bluebird",
     "q"
   ],
-  "author": "Luke Bonaccorsi",
+  "author": "André Kugland",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lukeb-uk/node-promise-mysql/issues"
+    "url": "https://github.com/kugland/node-promise-mysql-native/issues"
   },
   "dependencies": {
     "@types/mysql": "^2.15.2",
-    "@types/bluebird": "^3.5.26",
-    "bluebird": "^3.5.0",
     "mysql": "^2.17.1"
   },
   "devDependencies": {
